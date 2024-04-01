@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+
+    <!--Подключени фавиконки-->
+    <link type="image/png" sizes="16x16" rel="icon" href="images/site_favicon.png">
+    
+    <!--Подключение файла со стилями-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Подключение шрифтов-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=
+                Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script defer src="jquery-3.6.1.js"></script>
+    <script defer src="scripts.js"></script>
+    <!--Заголовок-->
+    <title>Владение ПО</title>
+</head>
+<body>
+    <a href="#" class="scroll_top" title="Наверх"></a>
+
+    <!--Шапка сайта, основная навигация-->
+    <header>
+        <img class="site_logo" src="images/site_logo.svg">
+        <h2 class="site_name">Моё портфолио</h2>
+
+        <!--Иконка меню гамбургера-->
+        <div class="hamb">
+            <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        
+        <nav id="menu" class="nav_menu">
+                <a class="btn1 btn-one" href = "site.html">
+                    <p class="nav_href">Достижения</p>
+                </a>
+
+                <a class="btn1 btn-one" href = "naviki_page2.html">
+                    <p class="nav_href">Навыки</p>
+                </a>
+    
+                <a class="btn1 btn-one" href = "about_page3.html">
+                    <p class="nav_href">О себе</p>
+                </a>
+      
+                <a class="btn1 btn-one" href = "work_page5.html">
+                    <p class="nav_href">Опыт работы</p>
+                </a>  
+        </nav> 
+
+        <!--Фон меню гамбургера-->
+        <div class="popup" id="popup"></div> 
+
+    </header>
+
+    <main>
+        <div class="slide_1 vladenie_hello">
+            <p class="main_text_hello">Этот раздел сайта рассказывает о моих навыках владения программным обеспечением разного назначения.
+            </p>
+            <a class="scrollto" href="#slide1"></a>
+        </div>
+
+        <div id="slide1" class="about_cont">
+            <div class="about_product">
+                <img src="images/Word.jpg" alt="">
+                <p data-wow-duration="2s" class="wow animate__bounceInRight">Word — текстовый процессор, предназначенный для создания, просмотра, редактирования и форматирования текстов статей, деловых бумаг, а также иных документов, с локальным применением простейших форм таблично-матричных алгоритмов. Выпускается корпорацией Microsoft в составе пакета Microsoft Office. Первая версия была написана Ричардом Броди (Richard Brodie) для IBM PC, использующих DOS, в 1983 году. Позднее выпускались версии для Apple Macintosh (1984), SCO UNIX и Microsoft Windows (1989). Текущей версией является Microsoft Office Word 2021 для Windows и macOS, а также веб-версия Word Online (Office Online), не требующая установки программы на компьютер.
+                </p>
+            </div>
+        </div>
+        
+        <div class="about_cont">
+            <div class="about_product">
+                <p data-wow-duration="2s" class="wow animate__bounceInLeft">Excel — программа для работы с электронными таблицами, созданная корпорацией Microsoft для Microsoft Windows, Windows NT и Mac OS, а также Android, iOS и Windows Phone. Она предоставляет возможности экономико-статистических расчетов, графические инструменты, язык макропрограммирования потоков данных Power Query и, за исключением Excel 2008 под Mac OS X, язык макропрограммирования VBA (Visual Basic for Application). Microsoft Excel входит в состав Microsoft Office.
+                </p>
+                <img src="images/Excel.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="about_cont">
+            <div class="about_product">
+                <img src="images/PowerPoint.png" alt="">
+                <p data-wow-duration="2s" class="wow animate__bounceInRight">PowerPoint — Microsoft Office PowerPoint, от англ. empower — давать возможность, позволять[2]) — программное обеспечение для подготовки и просмотра презентаций, являющаяся частью Microsoft Office и доступная в редакциях для операционных систем Microsoft Windows и macOS, а также для мобильных платформ Android и IOS. Материалы, подготовленные с помощью PowerPoint, предназначены для отображения на большом экране - через проектор, либо телевизионный экран большого размера.
+
+                </p></div>
+        </div>
+
+        <div class="about_cont">
+            <div class="about_product">
+                <p data-wow-duration="2s" class="wow animate__bounceInLeft">PyCharm — кроссплатформенная интегрированная среда разработки для языка программирования Python, разработанная компанией JetBrains[5] на основе IntelliJ IDEA. Предоставляет пользователю комплекс средств для написания кода и визуальный отладчик.
+                    Продукт доступен в двух версиях: PyCharm Community Edition — бесплатная версия, находится под лицензией Apache License, и PyCharm Professional Edition — расширенная версия продукта, обладающая дополнительной функциональностью, является проприетарным ПО[6].
+                </p>
+                <img src="images/PyCharm.jpg" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_container">
+            <div class="about_us sec">
+                    <ul class="sci">
+                        <li><a href="#"><img src="images/vk.svg" alt=""></a></li>
+                        <li><a href="#"><img src="images/instagram.svg" alt=""></a></li>
+                        <li><a href="#"><img src="images/github.svg" alt=""></a></li>
+                        <li><a href="#"><img src="images/youtube.svg" alt=""></a></li>
+                    </ul>
+            </div>
+
+            <div class="quick_links sec">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Приватность</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Помощь</a></li>
+
+                </ul>
+            </div>
+
+            <div class="call_us sec">
+                <h2>Свяжитесь с мной</h2>
+                <ul>
+                    <li><p class="sv_us"><a href="tel:+7 967 064 03 13">+7 967 064 03 13</a><br>
+                        <a href="tel:+7 985 368 17 05">+7 985 368 17 05</a></p></li>
+                    <li><a href="mailto:kosterka173@yandex.ru">kosterka173@yandex.ru</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
